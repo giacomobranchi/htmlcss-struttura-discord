@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .bg_1 {
@@ -72,8 +73,9 @@ section {
     height: 90%;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+
 }
 
 
@@ -106,4 +108,47 @@ section {
 .bg_3 {
     background-color: mediumseagreen;
     height: 48rem;
+}
+
+footer {
+    background-color: tomato;
+}
+
+.col_3 {
+    width: 30%;
+    height: 90%;
+    background-color: darkkhaki;
+}
+
+.col_4 {
+    height: 90%;
+    background-color: indianred;
+    width: 15%;
+}
+
+
+.info {
+    height: 90%;
+    width: 15%;
+    background-color: yellow;
+}
+
+.row_2 {
+    background-color: lightsalmon;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ft_row_1 {
+    padding-top: 2rem;
+}
+
+.bg_4 {
+    background-color: lightgreen;
+    border: 1px solid black;
+    height: 40rem;
+    padding-bottom: 2rem;
 }
