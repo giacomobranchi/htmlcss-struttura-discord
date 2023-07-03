@@ -4,15 +4,24 @@
     box-sizing: border-box;
 }
 
+header {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
 .container {
     max-width: 1170px;
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: center;
-    height: 2rem;
-    background-color: aqua;
     align-items: center;
+}
+
+.bg_1 {
+    background-color: aqua;
+    height: 2rem;
 }
 
 .head_1 {
@@ -32,4 +41,16 @@
 .debug header {
     height: 40px;
     background-color: grey;
+}
+
+nav {
+    background-color: rgb(233, 132, 224);
+    height: 400px;
+}
+
+.logo {
+    width: 600px;
+    height: 250px;
+    background-color: lightgrey;
+    margin-top: 2rem;
 }
