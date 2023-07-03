@@ -82,7 +82,7 @@ section {
 
 .debug .row {
     background-color: lightsalmon;
-    height: 90%;
+    height: 27rem;
 }
 
 
@@ -93,7 +93,7 @@ section {
 
 .debug .col_1,
 .col_2 {
-    height: 90%;
+    height: 389px;
     background-color: darkolivegreen;
 }
 
@@ -108,7 +108,7 @@ section {
 }
 
 .debug .card {
-    height: 90%;
+    height: 350px;
     background-color: rgb(236, 143, 189);
 }
 
@@ -130,7 +130,7 @@ section {
 }
 
 .debug .col_3 {
-    height: 90%;
+    height: 360px;
     background-color: darkkhaki;
 }
 
@@ -139,7 +139,7 @@ section {
 }
 
 .debug .col_4 {
-    height: 90%;
+    height: 360px;
     background-color: indianred;
 }
 
@@ -149,7 +149,7 @@ section {
 }
 
 .debug .info {
-    height: 90%;
+    height: 50px;
     background-color: yellow;
 }
 
@@ -162,7 +162,7 @@ section {
 
 .debug .row_2 {
     background-color: lightsalmon;
-    height: 10%;
+    height: 60px;
 }
 
 #ft_row_1 {
