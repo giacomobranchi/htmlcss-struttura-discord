@@ -1,5 +1,35 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    background-color: aqua;
+    align-items: center;
+}
+
+.head_1 {
+    background-color: red;
+    height: 1rem;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.head_2 {
+    background-color: red;
+    height: 1rem;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.debug header {
+    height: 40px;
+    background-color: grey;
 }
